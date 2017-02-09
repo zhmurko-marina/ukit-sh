@@ -1,0 +1,78 @@
+@media (min-width: 1200px) {
+  .container {
+    padding: 0 80px; } }
+
+@media (max-width: 992px) {
+  header .advantage-list p {
+    font-size: 18px;
+    margin: 8px 0; }
+  .information-wrap h6 {
+    padding-top: 10%; }
+  .information-wrap p {
+    font-size: 15px; }
+  .information-wrap .free-gift::before {
+    height: 48px;
+    background-size: 48px; }
+  .information-wrap .site-editor::before {
+    height: 48px;
+    background-size: 48px; }
+  .information-wrap .no-code::before {
+    height: 48px;
+    background-size: 48px 38px; }
+  .information-wrap .row {
+    background-color: transparent; }
+  .information-wrap .col-sm-6 {
+    margin-bottom: 20px;
+    background-color: #2a3b56;
+    min-height: 270px; } }
+
+@media (max-width: 768px) {
+  h3 {
+    font-size: 40px;
+    margin-bottom: 25px; }
+  .information-wrap .col-sm-6:nth-child(odd) {
+    background-color: transparent; }
+  .information-wrap .col-sm-6 {
+    min-height: 200px; }
+  .instruction-wrap {
+    padding-top: 200px; }
+    .instruction-wrap ol {
+      list-style-type: none;
+      counter-reset: item; }
+      .instruction-wrap ol h6 {
+        font-size: 21px;
+        font-weight: 300;
+        line-height: 23px; }
+      .instruction-wrap ol p {
+        color: #6f7376;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 23px; }
+      .instruction-wrap ol li {
+        position: relative;
+        margin-bottom: 50px; }
+      .instruction-wrap ol li span::after {
+        display: none; } }
+
+@media (max-width: 400px) {
+  button:not(.navbar-toggle and .enter-button) {
+    width: 200px !important; }
+  header h2 {
+    font-size: 40px !important; }
+  .widgets-wrap {
+    margin-top: -100px; }
+    .widgets-wrap h3 {
+      font-size: 30px;
+      margin-bottom: 20px; }
+    .widgets-wrap .widgets {
+      min-width: 50%; }
+      .widgets-wrap .widgets span {
+        margin: 0;
+        height: 60px;
+        background-position: center !important;
+        position: relative;
+        display: block; }
+    .widgets-wrap .widget-vk {
+      margin-left: 0; }
+  .repeat-wrap .container .row .col-xs-4 {
+    min-width: 90% !important; } }
